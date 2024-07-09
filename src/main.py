@@ -1,15 +1,15 @@
-import pandas as pd
-import numpy as np
-
-from sklearn.neighbors import NearestNeighbors
-from sklearn import model_selection
-from numpy import count_nonzero
-from sklearn.metrics import mean_squared_error
-from math import sqrt
-
+#It will be improved in the future
 import tkinter as tk
 import tkinter.font as tkFont
 import warnings
+from math import sqrt
+
+import numpy as np
+import pandas as pd
+from numpy import count_nonzero
+from sklearn import model_selection
+from sklearn.metrics import mean_squared_error
+from sklearn.neighbors import NearestNeighbors
 
 warnings.filterwarnings('ignore')
 
